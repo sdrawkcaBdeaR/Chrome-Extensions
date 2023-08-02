@@ -1,0 +1,16 @@
+{
+    "name" : "testExtension",
+    "version" : "1.0.0",
+    "description" : "trying to make extension",
+    "manifest_version" : 3,
+
+    "content_scripts" : [{
+        "css": ["styles.css"],
+        "matches": ["https://erp.iitkgp.ac.in/IIT_ERP3/*"]
+      }],
+
+      "icons": {
+        "16": "assets/logo16.png",
+        "48": "assets/logo48.png"
+      }
+}
