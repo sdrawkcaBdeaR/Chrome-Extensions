@@ -5,7 +5,7 @@
     "manifest_version" : 3,
 
     "content_scripts" : [{
-        "css": ["styles.css"],
+        "css": ["style.css"],
         "matches": ["https://erp.iitkgp.ac.in/IIT_ERP3/*"]
       }]
 }
