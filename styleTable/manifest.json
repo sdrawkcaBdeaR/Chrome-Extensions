@@ -1,0 +1,11 @@
+{
+    "name" : "StyleTable",
+    "version" : "1.0.0",
+    "description" : "trying to make extension",
+    "manifest_version" : 3,
+
+    "content_scripts" : [{
+        "css": ["styles.css"],
+        "matches": ["https://erp.iitkgp.ac.in/IIT_ERP3/*"]
+      }]
+}
